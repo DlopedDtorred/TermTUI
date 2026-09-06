@@ -1,0 +1,18 @@
+{
+  "name": "termtui",
+  "version": "0.1.0",
+  "description": "A small, modern terminal UI framework for Node.js",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "termtui-demo": "examples/dashboard.js"
+  },
+  "scripts": {
+    "start": "node examples/dashboard.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
